@@ -1,9 +1,9 @@
-function shoppingList(regNumbers) {
+function displayEachRegNumber(regNumbers) {
   var regList = regNumbers.split(',');
   for (var i=0;i<regList.length;i++) {
     console.log(regList[i].trim());
   }
-  //return foodList[i];
+  //return regList[i];
 
 }
-shoppingList('CJ 10111, CY 11551,   CA 554455');
+displayEachRegNumber('CJ 10111, CY 11551,   CA 554455');
