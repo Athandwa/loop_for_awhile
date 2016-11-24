@@ -4,6 +4,6 @@ function displayEachRegNumber(regNumbers) {
     console.log(regList[i].trim());
   }
   //return regList[i];
-
+  
 }
 displayEachRegNumber('CJ 10111, CY 11551,   CA 554455');
